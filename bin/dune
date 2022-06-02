@@ -1,0 +1,5 @@
+(executables
+ (names checkbox progress spinner textinput select)
+ (libraries tea core async cohttp-async core_unix.command_unix)
+ (preprocess
+  (pps ppx_let ppx_jane)))

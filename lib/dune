@@ -1,0 +1,8 @@
+(include_subdirs unqualified)
+
+(library
+ (name tea)
+ (public_name tea)
+ (libraries notty notty.unix base async notty_async)
+ (preprocess
+  (pps ppx_jane)))
