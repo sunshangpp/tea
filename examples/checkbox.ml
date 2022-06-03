@@ -1,11 +1,11 @@
-open Base
-open Core
-open Async
+open! Base
+open! Core
+open! Async
 open Tea
 open Io
 open Notty
 open Cohttp
-open Cohttp_async
+open! Cohttp_async
 
 type model =
   { choices : string array
@@ -29,7 +29,7 @@ let get_code i uris =
   `UriStatus (i, code)
 ;;
 
-let get_code_randomly () =
+let _get_code_randomly () =
   let uris = List.to_array uris in
   let len = Array.length uris in
   get_code (Random.int len) uris

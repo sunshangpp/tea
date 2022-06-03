@@ -1,5 +1,5 @@
-open Base
-open Core
+open! Base
+open! Core
 open Async
 open Notty
 

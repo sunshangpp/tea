@@ -1,5 +1,5 @@
-open Base
-open Core
+open! Base
+open! Core
 open Notty
 
 let default_placeholder_attr = A.(fg (gray 6))

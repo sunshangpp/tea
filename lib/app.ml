@@ -1,7 +1,7 @@
-open Notty
-open Base
+open! Base
 open Io
 open Async
+open Notty
 open Notty_async
 
 type ('args, 'model, 'msg) config =

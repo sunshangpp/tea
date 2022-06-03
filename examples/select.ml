@@ -1,7 +1,7 @@
-open Base
-open Core
-open Async
-open Tea
+open! Base
+open! Core
+open! Async
+open! Tea
 open Tea.Io
 open Notty
 

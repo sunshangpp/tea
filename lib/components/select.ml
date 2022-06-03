@@ -1,5 +1,5 @@
-open Base
-open Core
+open! Base
+open! Core
 open Notty
 
 let default_highlight_attr = A.(fg (rgb_888 ~r:255 ~g:95 ~b:175))

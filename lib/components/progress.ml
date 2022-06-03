@@ -1,6 +1,6 @@
-open Base
-open Core
-open Async
+open! Base
+open! Core
+open! Async
 open Notty
 
 let empty_cell = "░"
